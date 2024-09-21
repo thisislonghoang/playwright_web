@@ -1,0 +1,32 @@
+//Cấu hình TypeScript
+//tsconfig.json
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "rootDir": "./",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "src/*": [
+        "./src/*"
+      ]
+    },
+    "types": [
+      "@playwright/test",
+      "node"
+    ] // Thêm @playwright/test ở đây
+  },
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

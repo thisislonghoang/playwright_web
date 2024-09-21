@@ -1,0 +1,168 @@
+{
+  "config": {
+    "configFile": "/Users/automationtest/PlaywrightTool/PlaywrightTutorialFullCourse2024/bpmProject/playwright.config.ts",
+    "rootDir": "/Users/automationtest/PlaywrightTool/PlaywrightTutorialFullCourse2024/bpmProject/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/automationtest/PlaywrightTool/PlaywrightTutorialFullCourse2024/bpmProject/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/automationtest/PlaywrightTool/PlaywrightTutorialFullCourse2024/bpmProject/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/automationtest/PlaywrightTool/PlaywrightTutorialFullCourse2024/bpmProject/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/automationtest/PlaywrightTool/PlaywrightTutorialFullCourse2024/bpmProject/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.47.0",
+    "workers": 5,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "ub-86-ctqtts4-1-ho-flow.spec.ts",
+      "file": "ub-86-ctqtts4-1-ho-flow.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test case ID: 9 - luồng thành công của HO",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "timedOut",
+                  "duration": 30776,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "/Users/automationtest/PlaywrightTool/PlaywrightTutorialFullCourse2024/bpmProject/src/bpm.web.ttqt/KeyInternationalPayment.ts",
+                        "column": 93,
+                        "line": 54
+                      },
+                      "message": "Error: locator.waitFor: Test timeout of 30000ms exceeded.\nCall log:\n  \u001b[2m- waiting for frameLocator('//iframe[@title=\\'Chọn loại Chuyển Tiền\\']').locator('//select[@id=\\'singleselect-Single_Select1\\']') to be visible\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../src/bpm.web.ttqt/KeyInternationalPayment.ts:54\n\n\u001b[0m \u001b[90m 52 |\u001b[39m     \u001b[36masync\u001b[39m \u001b[33mDropdownSelectTypeService\u001b[39m(optionSelectionType\u001b[33m:\u001b[39m string)\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[36mvoid\u001b[39m\u001b[33m>\u001b[39m {\n \u001b[90m 53 |\u001b[39m         \u001b[36mconst\u001b[39m iframe_Chon_Loai_Chuyen_Tien \u001b[33m=\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mframeLocator(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mselector\u001b[33m.\u001b[39miframe_Chon_Loai_Chuyen_Tien)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 54 |\u001b[39m         \u001b[36mawait\u001b[39m iframe_Chon_Loai_Chuyen_Tien\u001b[33m.\u001b[39mlocator(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mselector\u001b[33m.\u001b[39m\u001b[33mDropdownSelectTypeService\u001b[39m)\u001b[33m.\u001b[39mwaitFor()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 55 |\u001b[39m         \u001b[36mawait\u001b[39m iframe_Chon_Loai_Chuyen_Tien\u001b[33m.\u001b[39mlocator(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mselector\u001b[33m.\u001b[39m\u001b[33mDropdownSelectTypeService\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 56 |\u001b[39m         \u001b[36mawait\u001b[39m iframe_Chon_Loai_Chuyen_Tien\u001b[33m.\u001b[39mlocator(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mselector\u001b[33m.\u001b[39m\u001b[33mDropdownSelectTypeService\u001b[39m)\u001b[33m.\u001b[39mselectOption(optionSelectionType)\u001b[33m;\u001b[39m \u001b[90m//select option CTDN\u001b[39m\n \u001b[90m 57 |\u001b[39m         console\u001b[33m.\u001b[39mlog(optionSelectionType)\u001b[33m;\u001b[39m \u001b[90m// Kiểm tra giá trị trả về\u001b[39m\u001b[0m\n\n\u001b[2m    at KeyInternationalPayment.DropdownSelectTypeService (/Users/automationtest/PlaywrightTool/PlaywrightTutorialFullCourse2024/bpmProject/src/bpm.web.ttqt/KeyInternationalPayment.ts:54:93)\u001b[22m\n\u001b[2m    at CreateInternationalPayment.dropdownSelectTypeService (/Users/automationtest/PlaywrightTool/PlaywrightTutorialFullCourse2024/bpmProject/src/bpm.web.ttqt/createInternationalPayment.ts:26:31)\u001b[22m\n\u001b[2m    at /Users/automationtest/PlaywrightTool/PlaywrightTutorialFullCourse2024/bpmProject/tests/ub-86-ctqtts4-1-ho-flow.spec.ts:31:38\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "{\n  usernameField: \u001b[32m\"//input[@id='username']\"\u001b[39m,\n  passwordField: \u001b[32m\"//input[@id='password']\"\u001b[39m,\n  loginButton: \u001b[32m\"//span[@class='submit-text']\"\u001b[39m,\n  menuCreate: \u001b[32m\"//a[@id='CREATE']\"\u001b[39m,\n  DropdownSelectTypeService: \u001b[32m\"//select[@id='singleselect-Single_Select1']\"\u001b[39m,\n  DroplistSlectTypeService: \u001b[36m[Function: DroplistSlectTypeService]\u001b[39m,\n  button_Chon_1: \u001b[32m\"//button[@id='button-button-Button1']\"\u001b[39m,\n  iframeTTQT: \u001b[32m\"//iframe[@title='Desktop CTQT']\"\u001b[39m,\n  iframe_Chon_Loai_Chuyen_Tien: \u001b[32m\"//iframe[@title='Chọn loại Chuyển Tiền']\"\u001b[39m\n}\n"
+                    },
+                    {
+                      "text": "Input username: it3\n"
+                    },
+                    {
+                      "text": "Input password: TPBank@20241\n"
+                    },
+                    {
+                      "text": "Clicked on login button\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-21T02:17:25.214Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/automationtest/PlaywrightTool/PlaywrightTutorialFullCourse2024/bpmProject/test-results/ub-86-ctqtts4-1-ho-flow-Te-870a9-9---luồng-thành-công-của-HO-chromium/video-1.webm"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/automationtest/PlaywrightTool/PlaywrightTutorialFullCourse2024/bpmProject/test-results/ub-86-ctqtts4-1-ho-flow-Te-870a9-9---luồng-thành-công-của-HO-chromium/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "e2cca773edc554df6da6-be7221efc422bbe73ba6",
+          "file": "ub-86-ctqtts4-1-ho-flow.spec.ts",
+          "line": 22,
+          "column": 7
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-09-21T02:17:24.941Z",
+    "duration": 31740.927,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

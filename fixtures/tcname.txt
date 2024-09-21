@@ -1,0 +1,14 @@
+/*
+  **Thành công**
+TS4_1	Luồng khởi tạo CTQT thành công
+TS4_2	Tay 2 ĐVKD Từ chối KH
+TS4_3	Tay 2 ĐVKD Trả lại KH
+TS4_4	Tay 2 ĐVKD trả lại về tay 1
+TS4_5	Kiểm tra trường hợp hồ sơ không nợ chứng từ
+TS4_6	Báo lỗi KH ghi nhận nợ phí
+TS4_7	CVKH hủy giao dịch
+TS4_8	Kiểm tra giao dịch có chứng chỉ 123 CT thành công
+TS4_9	Kiểm tra giao dịch không có chứng chỉ 123
+  **Thất bại**
+TS4_11	Kiểm tra trường hợp hồ sơ nợ chứng từ
+*/

@@ -1,0 +1,61 @@
+
+
+[
+    {
+        "tc_id": "1",
+        "tc_name": "luồng thành công của HO",
+        "username": "it3",
+        "password": "TPBank@20241",
+        "message": "Error: Please provide a valid email address.",
+        "username_cbo": "it3",
+        "username_tay1": "tyc1",
+        "username_tay2": "emp1",
+        "tile_ttqt": "TTQT_Portal",
+        "file_path": "/Include/files/5eur-our-CN_00000623.pdf",
+        "type": "CA NHAN",
+        "number_account": "00000623002",
+        "choose_accounting_account": "00000623002",
+        "number_money": "5",
+        "exchange_rate": "26337",
+        "customer_name_expected": "FULL NAME 00000623",
+        "commodities": "GO",
+        "tay2_comment": "Hoàn thành Duyệt",
+        "number_contract": "1",
+        "amount_contract": "5",
+        "number_some_declaration": "1",
+        "amount_declaration": "5",
+        "status_trading_code": "HOAN_THANH",
+        "select_type_send_approval": "Gửi Duyệt lên tay 2 ĐVKD",
+        "feed_back": "hoàn thành duyệt"
+
+    },
+
+    {
+        "tc_id": "2",
+        "tc_name": "luồng thành công của DVKD",
+        "username": "it3",
+        "password": "TPBank@20241",
+        "message": "Error: Please provide a valid email address.",
+        "username_cbo": "it3",
+        "username_tay1": "tyc1",
+        "username_tay2": "emp1",
+        "tile_ttqt": "TTQT_Portal",
+        "file_path": "/Include/files/5eur-our-CN_00000623.pdf",
+        "type": "CA NHAN",
+        "number_account": "00000623002",
+        "choose_accounting_account": "00000623002",
+        "number_money": "5",
+        "exchange_rate": "26337",
+        "customer_name_expected": "FULL NAME 00000623",
+        "commodities": "GO",
+        "tay2_comment": "Hoàn thành Duyệt",
+        "number_contract": "1",
+        "amount_contract": "5",
+        "number_some_declaration": "1",
+        "amount_declaration": "5",
+        "status_trading_code": "HOAN_THANH",
+        "select_type_send_approval": "Gửi Duyệt lên tay 2 ĐVKD",
+        "feed_back": "hoàn thành duyệt"
+
+    }
+]
